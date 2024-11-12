@@ -53,4 +53,4 @@ try:
     print("Sorted unique addresses saved to pierce_addresses.txt")
 
 except requests.exceptions.RequestException as e:
-    print("Request failed:", e
+    print("Request failed:"), e
